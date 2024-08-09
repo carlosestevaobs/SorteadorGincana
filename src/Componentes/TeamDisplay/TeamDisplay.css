@@ -1,0 +1,53 @@
+.team-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .team-name {
+    font-size: 4rem;
+    opacity: 0;
+    transition: opacity 1s, font-size 1s;
+  }
+  
+  .team-name.visible {
+    opacity: 1;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .team-member {
+    font-size: 2rem;
+    opacity: 0;
+    transition: opacity 0s;
+  }
+  
+  .team-member.visible {
+    opacity: 1;
+  }
+  
+  .team-display.entering {
+    animation: fadeIn 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+       
+      opacity: 0;
+      
+    }
+    to {
+      
+      opacity: 1;
+     
+    }
+  }
+  

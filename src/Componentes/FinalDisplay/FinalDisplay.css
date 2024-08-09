@@ -1,0 +1,29 @@
+.final-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .final-team {
+    margin: 20px;
+    padding: 10px;
+    background-color: #5bcf5093;
+    border-radius: 8px;
+  }
+  
+  .final-team h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .final-team ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .final-team li {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
